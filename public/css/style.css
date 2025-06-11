@@ -1,0 +1,195 @@
+
+     .fontColor{
+          color:rgb(83, 125, 93);
+     }
+
+        body{
+            background-color: rgb(233, 231, 197);
+             font-family: 'Noto Serif', serif;
+        }
+       .navbar-nav{
+        justify-content: center;
+        font-size: 21px;
+       }
+
+       .navbar-nav .nav-item {
+        margin-right: 25px;
+       }
+
+       .col{
+        height: 35px;
+        color: azure;
+       }
+
+       .fontIklan{
+        font-size: 57px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        color: rgb(34, 105, 72);
+        font-weight: 1000;
+       }
+
+       .custom-font{
+        font-size: 31px;
+        font-style: bold;
+        color: rgb(34, 105, 72);
+       }
+
+       .custom-bg {
+            background-image: url('my2.png');
+            background-size: cover; /* Agar gambar menutupi seluruh area */
+            background-position: center; /* Agar posisi gambar berada di tengah */
+            background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+            color: white; /* Jika background gelap, warna teks bisa diubah */
+        }
+        .custom-container{
+            height: 300px;
+             background-color: rgb(210, 208, 160);
+        }
+
+        .card-img-top{
+            width: 60px;
+        }
+        .custom-bg1{
+            background-color: rgb(210, 208, 160);
+        }
+        .card{
+            border: none ;
+            box-shadow: none ;
+            background-color: transparent ;
+
+        }
+
+      .section-container {
+      position: relative;
+      min-height: 400px;
+      margin-bottom: 0px;
+    }
+
+    .feature-box {
+      background-color: #d6d4a0;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+      z-index: 2;
+      position: relative;
+      margin-right: -60px; /* mendekat ke gambar */
+    }
+
+    .baju-float {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 420px;
+      z-index: 3;
+    }
+
+    .deco-top-right {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background-color: #c9936b;
+      border-radius: 0 0 0 100%;
+      top: 0;
+      right: 0;
+      z-index: 1;
+    }
+
+       .baju-float-left {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 420px;
+      z-index: 3;
+    }
+
+    .deco-bottom-left {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background-color: #c9936b;
+      border-radius: 0 100% 0 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    .carousel-container {
+
+      padding: 40px 0;
+    }
+
+    .carousel-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .carousel-inner img {
+      transition: all 0.3s ease-in-out;
+      border-radius: 10px;
+    }
+
+    .carousel-img-small {
+      width: 120px;
+      opacity: 0.6;
+    }
+
+    .carousel-img-active {
+      width: 300px;
+      opacity: 1;
+    }
+
+
+    .arrow-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #d19b6d;
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    z-index: 10;
+    }
+
+    .arrow-btn:hover {
+      background-color: #c2814e;
+    }
+
+    .carousel-wrapper {
+        position: relative; /* posisi dasar untuk tombol di dalamnya */
+        display: inline-block;
+    }
+
+
+
+    .arrow-left {
+    left: -60px; /* Atur sesuai lebar gambar */
+    }
+
+    .arrow-right {
+    right: -60px;
+    }
+
+
+    .custom-mg{
+        margin-right: 18px;
+    }
+
+    .btn-outline-custom {
+        color: #000000;
+        border: 1.5px solid rgb(210, 208, 160);
+        border-radius: 12px;
+        background-color: rgb(210, 208, 160);
+        transition: 0.3s;
+    }
+
+    .btn-outline-custom:hover {
+        background-color: rgb(60, 155, 110);
+        color: rgb(0, 0, 0);
+    }
