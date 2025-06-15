@@ -215,30 +215,290 @@
                     <button type="button" class="btn btn-outline-custom">Primary</button>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-3">
-                    <a href="deskripsi.html" class="text-decoration-none text-dark">
-                    <div class="card" style="width: 18rem; cursor: pointer;">
-                        <img src="img/baju2.png" class="card-img-top" alt="Produk Baju">
-                        <div class="card-body">
-                        <h5 class="card-title">Kemeja Corduroy</h5>
-                        <p class="card-text">Kemeja stylish berbahan corduroy cocok untuk gaya kasual maupun formal.</p>
-                        <p class="card-text fw-bold">Rp249.000</p>
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
                         </div>
-                    </div>
                     </a>
-
                 </div>
-                <div class="col-3">
 
+                <div class="col-3">
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-3">
 
+                <div class="col-3">
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-3">
 
+                <div class="col-3">
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+             <div class="row mt-0">
+                <div class="col-3">
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
+
+            <div class="row mt-0">
+                <div class="col-3">
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="#">
+                        <div class="card custom-card">
+                        <img src="img/baju2.png" alt="Kemeja Curdoruy" class="product-image">
+                            <div class="card-info">
+                                <div class="text-info">
+                                    <h3>Kemeje Curdoruy</h3>
+                                    <p>Rp. 190.000,00</p>
+                                </div>
+                                <div class="cart-icon">
+                                    <img src="img/logo Buy.png" alt="Keranjang Belanja">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- We Are The Biggest -->
+            <br>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="img/baju.png">
+                    </div>
+
+                    <div class="col-6">
+                        <p class="custom-font"
+                        style="text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);">We Are The Biggest<br>
+                        Produsen Cloths In The Wrod</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis vel dignissimos quo ab sapiente asperiores, perspiciatis sint sed adipisci ducimus, distinctio reprehenderit dolore voluptatibus temporibus voluptatem rerum dolor non blanditiis.</p>
+                        <button type="button" class="btn btn-primary btn-lg">But Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+    <!-- foooter -->
+    <div class="container-fluid" style="background-color: #c9936b;">
+        <div class="row align-items-center">
+            <div class="col-3 d-flex flex-column align-items-end justify-content-end">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Wilayah</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="custom-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3" >
+                <div class="card-body">
+                        <h5 class="card-title">Wilayah</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick excard title and make up the bulk of the card's content.</p>
+                        <a href="#" class="custom-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+
+
+            <div class="col-3" >
+                <div class="card-body">
+                        <h5 class="card-title">Wilayah</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick exap the bulk of the card's content.</p>
+                        <a href="#" class="custom-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+
+            <div class="col-3">
+                <div class="card-body">
+                        <h5 class="card-title">Wilayah</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example tele and make up the bulk of the card's content.</p>
+                        <a href="#" class="custom-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+
+<hr>
+        <div class="row">
+            <div class="col-12">
+                <p class="d-flex flex-column align-items-center justify-content-center">abisakha alfath-Copy right-2025</p>
+            </div>
+        </div>
     </div>
 
 
