@@ -7,7 +7,10 @@ Route::get('/', function () {
 });
 
 Route::get('/sale', function () {
-    return view('user.layout.sale');
+    return view('user.partials.sale');
 });
 
+Route::get('/purchases', function () {
+    return view('user.partials.purchases');
+});
 
