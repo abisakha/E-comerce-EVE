@@ -62,7 +62,7 @@ class ShoesController extends Controller
 
         Shoes::create($validateData);
 
-        return redirect('/shoes')->with('success', 'Shoe added successfully!');
+        return redirect('/shoes')->with('success', 'Cloth added successfully!');
     }
 
     public function view(Shoes $shoes)
@@ -128,7 +128,7 @@ class ShoesController extends Controller
         }
 
         Shoes::where('id', $shoes->id)->update($validatedData);
-        return redirect('/shoes')->with('success', 'Shoe has been edited!');
+        return redirect('/shoes')->with('success', 'Cloth has been edited!');
     }
 
     public function delete(Shoes $shoes)
@@ -147,6 +147,6 @@ class ShoesController extends Controller
         }
 
         Shoes::destroy($shoes->id);
-        return redirect('/shoes')->with('success', 'Shoe has been deleted!');
+        return redirect('/shoes')->with('success', 'Cloth has been deleted!');
     }
 }

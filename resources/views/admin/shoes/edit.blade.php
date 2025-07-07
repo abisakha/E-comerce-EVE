@@ -12,7 +12,7 @@
                     {{-- Nama Sepatu --}}
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control @error('nama_sepatu') is-invalid @enderror" id="nama_sepatu" name="nama_sepatu" value="{{ old('nama_sepatu', $shoes->nama_sepatu) }}" placeholder="nama_sepatu" required>
-                        <label for="nama_sepatu">Shoe Name</label>
+                        <label for="nama_sepatu">cloth Name</label>
                         @error('nama_sepatu')
                             <div class="invalid-feedback">
                                 {{ $message }}
@@ -38,7 +38,7 @@
                         <div class="col">
                             {{-- Ukuran --}}
                             <div class="form-floating mb-3">
-                                <input type="number" class="form-control @error('ukuran') is-invalid @enderror" id="ukuran" name="ukuran" value="{{ old('ukuran', $shoes->ukuran) }}" placeholder="ukuran" required>
+                                <input type="text" class="form-control @error('ukuran') is-invalid @enderror" id="ukuran" name="ukuran" value="{{ old('ukuran', $shoes->ukuran) }}" placeholder="ukuran" required>
                                 <label for="ukuran">Size</label>
                                 @error('ukuran')
                                     <div class="invalid-feedback">

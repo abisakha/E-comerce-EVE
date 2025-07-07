@@ -6,7 +6,7 @@
         <div class="row d-flex justify-content-center">
             <div class="col-md-12">
 
-                <h2>Shoes</h2>
+                <h2>Cloth</h2>
 
                 @if (session()->has('success'))
                     <div class="alert alert-success alert-dismissible fade show" role="alert">

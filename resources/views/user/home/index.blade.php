@@ -275,13 +275,12 @@
                 <div class="treanding-search">
                 <div class="card-body">
                     <h5 class="card-title">Trending Search</h5>
-                    <div>Sepatu Converse</div>
-                    <div>Sepatu Sneaker</div>
-                    <div>Sepatu Sneakers Wanita</div>
-                    <div>Sepatu Sneakers Pria</div>
-                    <div>Sepatu One Star</div>
-                    <div>Sepatu All Star</div>
-                    <div>Sepatu Run Star Hike</div>
+                    <div>Baju Wanita</div>
+                    <div>Kemeja wanita</div>
+                    <div>Baju Wanita</div>
+                    <div>Kemeja Wanita</div>
+                    <div>All Cloth</div>
+                    <div>Kemeja Wanita</div>
                 </div>
                 </div>
             </div>
@@ -293,8 +292,8 @@
                     <div>Contact us</div>
                     <div>Order Status</div>
                     <div>FAQs</div>
-                    <div>Size Guide</div>
-                    <div>Size Guide</div>
+                    <div></div>
+                    <div></div>
                     <div>Return</div>
                     <div>Sitemap</div>
                 </div>
@@ -305,7 +304,7 @@
                 <div class="treanding-search">
                 <div class="card-body">
                     <h5 class="card-title">About Us</h5>
-                    <div>About Converse</div>
+                    <div>About Eve</div>
                     <div>About MAPCLUB</div>
                     <div>Terms and Conditions</div>
                     <div>Privacy Policy</div>
