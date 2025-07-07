@@ -1,6 +1,6 @@
-export default {
+// ✅ Versi tanpa Tailwind
+module.exports = {
   plugins: {
-    tailwindcss: {},
     autoprefixer: {},
   },
-}
+};
