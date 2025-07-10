@@ -1,12 +1,16 @@
 @extends('admin.layouts.main')
 
 @section('container')
-    <div class="container">
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3 class="custom-font" style="text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);">Category</h3>
+                <h5 class="">Create, Update, Detete The Category</h5>
+
+            </div>
+        </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md-12">
-
-                <h2>Categories</h2>
-
                 @if (session()->has('success'))
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
                         {{ session('success') }}

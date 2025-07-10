@@ -321,7 +321,7 @@
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="cartLabel"><i class="fa-solid fa-cart-shopping fa-sm"></i> Cart</h1>
+                    <h1 class="modal-title custom-font" style="text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);" id="cartLabel" >My Cart</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">

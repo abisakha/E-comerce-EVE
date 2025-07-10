@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row justify-content-around">
 
-        <p class="mt-5 text-center fs-2 fw-bold">Your <span style="color: red;">Order</span></p>
+        <p class="mt-5 text-center fs-2 fw-bold custom-font" style="text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);">My Orders</span></p>
 
         @if (session()->has('success'))
             <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -15,31 +15,19 @@
                 <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         @endif
-        <hr>
 
-        <div class="col-md-3 text-center">
-            <span><i class="fa-solid fa-credit-card fa-xl"></i></span><br>
-            <span>Not Yet Paid</span>
-        </div>
-
-        <div class="col-md-3 text-center">
-            <span><i class="fa-light fa-box-taped fa-xl"></i></span><br>
-            <span>Packed</span>
-        </div>
-
-        <div class="col-md-3 text-center">
-            <span><i class="fa-regular fa-truck fa-xl"></i></span><br>
-            <span>Send</span>
-        </div>
-
-        <div class="col-md-3 text-center">
-            <span><i class="fa-regular fa-circle-star fa-xl"></i></span><br>
-            <span>Rate It</span>
-        </div>
+        <div class="step-container mb-4">
+                    <div class="step"><div class="step-circle active">✔</div><div>Not yet paid</div></div>
+                    <div class="step"><div class="step-circle active">✔</div><div>Packed</div></div>
+                    <div class="step"><div class="step-circle active">✔</div><div>Send it</div></div>
+                    <div class="step"><div class="step-circle">4</div><div>Rate it</div></div>
+                    <div class="step-line"></div>
+                </div>
 
         {{-- not yet paid --}}
+        <div class="row" style="margin-bottom: 250px">
         <div class="col-sm-3 my-5 mb-sm-0">
-            <div class="card">
+            <div class="card" style="background-color: rgb(233, 231, 197);">
                 @foreach ($transactions as $transaction)
                     @if ($transaction->status == 'pending')
                         <div class="card-body">
@@ -146,11 +134,12 @@
                 @endforeach
             </div>
         </div>
+        </div>
         {{-- end --}}
-
       </div>
     </div>
 </div>
+
 
 
 

@@ -34,7 +34,7 @@ header {
 
 
 .navigation .btnLogin-popup {
-    width: 130px;
+    width: 150px;
     height: 50px;
     background: transparent;
     border: 2px solid white;
@@ -54,10 +54,9 @@ header {
 
 .wrapper {
     position: relative;
-    width: 400px;
+    width: 430px;
     height: 440px;
-    background: transparent;
-    border: 2px solid grey rgba(255, 255, 255, .5);
+    border: 2px solid grey rgba(0, 25, 25, .5);
     border-radius: 20px;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 30px black rgba(0, 0, 0, .5);
@@ -513,4 +512,79 @@ section {
     background-color: rgb(210, 208, 160);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+/* transaction */
+       .step-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 40px;
+      position: relative;
+    }
+    .step-line {
+      position: absolute;
+      top: 22px;
+      left: 10%;
+      right: 10%;
+      height: 2px;
+      background-color: #b28b8b;
+      z-index: 0;
+    }
+    .step {
+      text-align: center;
+      z-index: 1;
+    }
+    .step-circle {
+      width: 40px;
+      height: 40px;
+      background-color: #8b6e6e;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      font-weight: bold;
+    }
+    .step-circle.active {
+      background-color: #6ab04c;
+    }
+
+    /* kkeranjang  */
+   /* Custom modal dialog to cover full screen */
+.custom-modal-dialog {
+    max-width: 100%;  /* Remove any max-width */
+    width: 100vw;     /* Set to full viewport width */
+    height: 100vh;    /* Set to full viewport height */
+    margin: 0;
+    padding: 0;
+    position: fixed;  /* Ensure it's fixed at the top left */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Custom modal content to take the full screen */
+.custom-modal-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    overflow-y: auto; /* Allow content to scroll if it's too long */
+}
+
+/* Custom modal body to allow scrolling */
+.custom-modal-body {
+    height: 100%; /* Take up the full height of the modal */
+    overflow-y: auto; /* Scrollable content */
+}
+
+/* Custom modal header and footer to stay on top */
+.custom-modal-header, .custom-modal-footer {
+    position: relative;
+    z-index: 10;
+}
+
+
 

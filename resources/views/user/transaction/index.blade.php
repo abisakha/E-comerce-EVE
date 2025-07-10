@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Eve</title>
     <link rel="icon" type="image/x-icon" href="img/icon.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"> --}}
     <link
@@ -94,23 +95,30 @@
         }
     </style>
   </head>
-  <body class="pb-3" id="body" style="background-color: #f8f8f8">
+  <body class="pb-3" id="body" style="background-color: rgb(233, 231, 197);
+    font-family: 'Noto Serif', serif;">
 
 
     <div class="container-fluid mt-3">
         <!--Product detail-->
         <section class="container sproduct pb-3">
+            <div class="row">
+                <div class="col-2 d-flex flex-column align-items-center justify-content-center text-center">
             <a href="/sale"><i class="fa-sharp fa-solid fa-arrow-left fa-lg"></i></a>
+            </div>
+                <div class="col-8 d-flex flex-column align-items-center justify-content-center text-center">
+            <h3 class="custom-font" style="text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);">Checkout</h3>
+            </div>
+            </div>
 
-            <h3 class="py-3">Checkout</h3>
             <div class="row d-flex justify-content-center mt-3">
                 <div class="col-md-12">
 
                     <div class="row">
-                        <div class="col-sm-8 mb-3 mb-sm-0">
+                        <div class="col-sm-12 mb-3 mb-sm-0">
                           <div class="card shadow-lg">
                             <div class="card-body">
-                              <h5 class="card-title text-muted">Shipping Address</h5>
+                              <h5 class="card-title text-muted text-center custom-font fs-4">Your Address</h5>
                               <p class="card-text"><i class="fa-sharp fa-solid fa-location-dot"></i> {{ auth()->user()->alamat }}</p>
                               <a href="/profile/{{ auth()->user()->id }}" class="btn btn-outline-secondary">Change Address</a>
                             </div>
@@ -118,7 +126,7 @@
 
                           <div class="card mt-3 shadow-lg">
                             <div class="card-body">
-                                <h5 class="card-title"><img src="/img/logo.png" alt="" width="25px" height="25px" class="me-2 rounded-circle mb-1"> Kick Korner</h5>
+                                <h5 class="card-title text-center fs-4 custom-font ">Detail Produk</h5>
                                 <div class="card rounded-3 mb-4">
                                     <div class="card-body p-4">
                                       <div class="row d-flex justify-content-between align-items-center">
@@ -140,10 +148,25 @@
                                       </div>
                                     </div>
                                 </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col">
+                                        <h5 class="fs-5" >Total :</h5>
+                                    </div>
+                                <div class="col">
+                                    <p class="card-text">IDR {{ $harga }}</p>
+                                </div>
+                                <hr>
+                              </div>
+                              <div class="row mt-4">
+                                    <div class="col-12 d-flex flex-column align-items-center justify-content-center text-center">
+                                <button id="pay-button" class="btn btn-success" style="width: 300px"> Bayar</button>
+                            </div>
+                            </div>
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-4">
+                        {{-- <div class="col-sm-4">
                           <div class="card shadow-lg">
                             <div class="card-body">
                               <h5 class="card-title">Total</h5>
@@ -151,7 +174,7 @@
                               <button id="pay-button" class="btn btn-success w-100">Pay!</button>
                             </div>
                           </div>
-                        </div>
+                        </div> --}}
                     </div>
 
                 </div>

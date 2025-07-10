@@ -9,11 +9,11 @@
           <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
             <div class="navbar-nav fs-5" id="navbar" >
               <a class="nav-link active" aria-current="page" href="/" >Home</a>
-              <a class="nav-link" href="/sale">Sale</a>
+              <a class="nav-link" href="/sale">Products</a>
               @if (auth()->user())
-              <a class="nav-link" href="/purchases">Purchases</a>
+              <a class="nav-link" href="/purchases">Transaction</a>
               @endif
-              <a class="nav-link" href="/contactus">Contact us</a>
+              <a class="nav-link" href="/contactus">About Us</a>
             </div>
 
           </div>

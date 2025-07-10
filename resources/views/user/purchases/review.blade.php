@@ -72,6 +72,11 @@
             font-size: 16px;
             cursor: pointer;
         }
+        .custom-font {
+    font-size: 31px;
+    font-style: bold;
+    color: rgb(34, 105, 72);
+}
 
         .buy-btn:hover {
             background: #ff4cff;
@@ -114,7 +119,8 @@
         }
     </style>
   </head>
-  <body class="pb-3" id="body">
+  <body style=" background-color: rgb(233, 231, 197);
+    font-family: 'Noto Serif', serif;" id="body">
 
 
     <div class="container-fluid mt-3">
@@ -126,7 +132,7 @@
                     <a href="/purchases"><i class="fa-sharp fa-solid fa-arrow-left fa-lg"></i></a>
                         <div class="row mt-2">
 
-                            <h3 class="text-center mb-3">Review <span style="color: red">Product</span></h3>
+                            <h3 class="text-center mb-3 custom-font">Review Product</span></h3>
                             <hr>
                             @foreach ($shoess as $shoes)
                                 <div class="row d-flex justify-content-center">
@@ -172,7 +178,7 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-6">
 
-                            <div class="mb-3">
+                            {{-- <div class="mb-3">
                                 <label for="image" class="form-label d-block">Foto Product</label>
                                 <img class="img-preview img-fluid mb-3 col-sm-5" style="max-height: 200; max-width: 200px;">
                                 <input type="file" class="form-control @error('image') is-invalid @enderror" id="image" name="image" value="{{ old('image') }}" placeholder="image" onchange="previewImage(event)">
@@ -181,7 +187,7 @@
                                         {{ $message }}
                                     </div>
                                 @enderror
-                            </div>
+                            </div> --}}
 
                             <div class="form-floating mb-3">
                                 <input type="text" class="form-control" name="name" id="name" placeholder="name" value="{{ auth()->user()->name }}" disabled>

@@ -6,7 +6,7 @@
         <div class="row d-flex justify-content-center">
             <div class="col-md-8">
                 <a href="/shoes"><i class="fa-sharp fa-solid fa-arrow-left fa-lg"></i></a>
-                <h3 class="text-center">Detail Baju</h3>
+                <h3 class="custom-font text-center" style="text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);">Detail Baju</h3>
 
                 <table class="table table-striped">
                     <tr>

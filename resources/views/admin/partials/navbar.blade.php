@@ -56,17 +56,17 @@
 </nav> --}}
 
 
-<nav class="navbar navbar-light bg-light p-3">
+<nav class="navbar navbar-light  p-3" style="background-color:rgb(233, 231, 197);">
     <div class="d-flex col-12 col-md-3 col-lg-2 mb-2 mb-lg-0 flex-wrap flex-md-nowrap justify-content-between">
         <a class="navbar-brand" href="/dashboard">
-            <img src="img/icon.png" alt="" width="50px"> <h3 class="d-inline ms-3">Eve</h3>
+            <img src="img/icon.png" alt="" width="100px"> <h3 class="d-inline ms-3">Eve</h3>
         </a>
         <button class="navbar-toggler d-md-none collapsed mb-3" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
 
-    <div class="col-12 col-md-5 col-lg-8 d-flex align-items-center justify-content-md-end mt-3 mt-md-0">
+    {{-- <div class="col-12 col-md-5 col-lg-8 d-flex align-items-center justify-content-md-end mt-3 mt-md-0">
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {{ auth()->user()->name }}
@@ -78,5 +78,46 @@
                 </form>
             </ul>
         </div>
+    </div> --}}
+    <div class="col-12 col-md-5 col-lg-8 d-flex align-items-center justify-content-md-end mt-3 mt-md-0">
+    <form action="/logout" method="post">
+        @csrf
+        <button class="btn btn-secondary">
+            {{ auth()->user()->name }} - Sign out
+        </button>
+    </form>
+</div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(233, 231, 197);">
+  <div class="container">
+    {{-- <a class="navbar-brand" href="#">Navbar</a> --}}
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link {{ Request::is('dashboard') ? 'active' : '' }}" aria-current="page" href="/dashboard">
+                <span class="ms-3 fs-5">Dashboard</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link {{ Request::is('category*') ? 'active' : '' }}" href="/category">
+                <span class="ms-3 fs-5">Category</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link {{ Request::is('shoes*') ? 'active' : '' }}" href="/shoes">
+                <span class="ms-3 fs-5">Clots</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link {{ Request::is('transaction*') ? 'active' : '' }}" href="/transaction">
+                <span class="ms-3 fs-5">Transactions</span>
+            </a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>

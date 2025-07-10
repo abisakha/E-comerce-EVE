@@ -13,6 +13,7 @@
                     <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             @endif
+            <p class=" custom-font" style="text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);" id="cartLabel" >My Profile</p>
 
             <h1><i class="fa-duotone fa-circle-user fa-2xl my-5"></i></h1>
 
@@ -90,7 +91,7 @@
 
                 {{-- button --}}
                 <div class="mb-3 text-end">
-                    <button type="submit" class="btn btn-warning">Save</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
                 </div>
                 {{-- end --}}
             </form>

@@ -5,12 +5,14 @@
     <!-- Recommendation -->
     <section id="product1" class="section-p1">
         <div class="container">
-            <h2 class="text-center">Featured Products</h2>
-            <p class="text-center">Summer Collection New Morder Design</p>
-
-            {{-- Search --}}
             <div class="row justify-content-center mb-3">
-                <div class="col-md-6">
+                 <div class="col-md-4">
+            <h2 class="text-center custom-font" style="text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);">Our Products</h2>
+            <p class="text-center">Kindly choose our product</p>
+                 </div>
+            {{-- Search --}}
+
+                <div class="col-md-8">
                     <form action="/sale">
                         @if (request('category'))
                             <input type="hidden" name="category" value="{{ request('category') }}">
@@ -25,7 +27,7 @@
             {{-- End --}}
 
             <!-- Filter Section -->
-            <div class="container" style="margin-top: 50px">
+            <div class="container" style="margin-top: 0px">
                 <div class="filter-container">
                     <a href="/sale" class="brand-filter" data-brand="all">All</a>
                     @foreach ($categories as $category)
@@ -79,7 +81,7 @@
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="cartLabel"><i class="fa-solid fa-cart-shopping fa-sm"></i> Cart</h1>
+                    <h1 class="modal-title custom-font" style="text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);" id="cartLabel" >My Cart</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">

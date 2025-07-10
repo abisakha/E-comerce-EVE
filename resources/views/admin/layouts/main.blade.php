@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eve</title>
     <link rel="icon" type="image/x-icon" href="/img/icon.png">
+        <link rel="stylesheet" href="/css/style-admin.css">
     {{-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"> --}}
@@ -48,6 +49,20 @@
       >
 
     <style>
+        .custom-font {
+    font-size: 31px;
+    font-style: bold;
+    color: rgb(34, 105, 72);
+}
+        #body {
+            background-color: rgb(233, 231, 197);
+            font-family: 'Noto Serif', serif;
+        }
+
+        .title {
+            font-size: 98px;
+
+        }
         .sidebar {
             position: fixed;
             top: 0;
@@ -91,12 +106,17 @@
         }
     </style>
 </head>
-<body>
+<body style=" background-color: rgb(233, 231, 197);
+ font-family: 'Noto Serif', serif;
+">
 
     @if (auth()->user()->role == '1')
         @include('admin.partials.navbar')
 
-        <div class="container-fluid">
+        <main class="container" style="height: 100vh">
+            @yield(section: 'container')
+        </main>
+        {{-- <div class="container-fluid">
             <div class="row">
 
                 @include('admin.partials.sidebar')
@@ -106,7 +126,7 @@
                 </main>
 
             </div>
-        </div>
+        </div> --}}
     @else
         <h2 class="text-danger">Anda tidak memiliki akses</h2>
         <a href="/">back to home</a>

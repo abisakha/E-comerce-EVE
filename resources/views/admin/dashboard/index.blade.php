@@ -1,9 +1,12 @@
 @extends('admin.layouts.main')
 
 @section('container')
-
-    <h3>Dashboard</h3>
-    <p>Welcome {{ auth()->user()->name }} to the admin page</p>
+<div class="row mt-5" >
+    <div class="col-12 text-center">
+    <h3 class="custom-font" style="text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);">Dashboard</h3>
+    <h5 class="">Welcome {{ auth()->user()->name }} to the admin page</h5>
+    </div>
+    </div>
     <div class="row my-4">
         <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
             <div class="card">
