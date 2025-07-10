@@ -36,7 +36,7 @@
                             <thead>
                                 <tr>
                                     <th>No</th>
-                                    <th>Shoe Name</th>
+                                    <th>Pruduct Name</th>
                                     <th>Price</th>
                                     <th>Stock</th>
                                     <th>Size</th>

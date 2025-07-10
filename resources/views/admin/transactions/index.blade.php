@@ -32,7 +32,7 @@
                                 <tr>
                                     <th>No</th>
                                     <th>Customers</th>
-                                    <th>Shoes</th>
+                                    <th>Cloth</th>
                                     <th>status</th>
                                     <th>total</th>
                                     <th>Action</th>
