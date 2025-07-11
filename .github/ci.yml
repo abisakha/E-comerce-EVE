@@ -3,14 +3,14 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - main  # Ganti dengan nama branch utama projectmu (misalnya `master` atau `develop`)
+      - main 
   pull_request:
     branches:
-      - main  # Mengaktifkan CI saat ada pull request ke branch utama
+      - main  
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Menjalankan CI di Ubuntu terbaru
+    runs-on: ubuntu-latest 
 
     steps:
     # 1. Checkout code
