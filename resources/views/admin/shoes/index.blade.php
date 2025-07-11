@@ -81,7 +81,7 @@
     <div class="modal-dialog modal-xl">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="tambahSepatuLabel">Add Shoe</h1>
+          <h1 class="modal-title fs-5" id="tambahSepatuLabel">Add Cloth</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -91,7 +91,7 @@
                 {{-- Nama Sepatu --}}
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control @error('nama_sepatu') is-invalid @enderror" id="nama_sepatu" name="nama_sepatu" value="{{ old('nama_sepatu') }}" placeholder="nama_sepatu" required>
-                    <label for="nama_sepatu">Shoe Name</label>
+                    <label for="nama_sepatu">Cloth Name</label>
                     @error('nama_sepatu')
                         <div class="invalid-feedback">
                             {{ $message }}
